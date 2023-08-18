@@ -98,6 +98,7 @@ Font load
 /*----------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap");
 
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: inherit;
@@ -116,7 +117,13 @@ body {
   font-family: var(--body-font);
   -moz-osx-font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
+  
 }
+
+  
+
+
+ 
 
 body .container {
   max-width: 1310px;
@@ -260,7 +267,7 @@ select:visited {
   position: fixed;
   border-radius: 100%;
   line-height: 55px;
-  background-color: var(--base-color-1);
+  background-color: #e99d0a;
 }
 
 .scrollup i {
@@ -868,7 +875,7 @@ select:visited {
 }
 
 .ori-header-login-signup .ori-login-btn button:hover {
-  background-color: #00AC83;
+  background-color: #0a6fb7;
 }
 
 .ori-header-login-signup .ori-login-btn button i {
@@ -877,11 +884,11 @@ select:visited {
 
 .ori-header-login-signup .ori-sign-btn button {
   white-space: nowrap;
-  background-color: var(--base-color-1);
+  background-color: #e99d0a;
 }
 
 .ori-header-login-signup .ori-sign-btn button:hover {
-  background-color: #00AC83;
+  background-color: #0a6fb7;
 }
 
 /*Header Style Three*/
@@ -2751,7 +2758,7 @@ select:visited {
 /*----------------------------------------------------*/
 .ori-fun-fact-section {
   padding: 100px 0px 95px;
-  background-color: #00AC83;
+  background-color: #e99d0a;;
 }
 
 .ori-fun-fact-item .ori-fun-fact-icon {
@@ -2962,6 +2969,7 @@ select:visited {
   overflow: hidden;
   padding: 160px 0px 170px;
   background-color: #292f3f;
+      margin-top: -120px;
 }
 
 .ori-testimonial-section-2 .ori-section-title-2 {
@@ -7284,7 +7292,7 @@ select:visited {
   right: -20px;
   content: "//";
   position: absolute;
-  color: var(--base-color-1);
+  color: #e99d0a;
 }
 
 .ori-breadcrumb-content li:last-child:before {
@@ -7297,6 +7305,7 @@ select:visited {
 .ori-about-play-section {
   overflow: hidden;
   padding: 125px 0px 120px;
+   margin-top: -100px;
 }
 
 .ori-about-play-top-content {
@@ -7349,7 +7358,7 @@ select:visited {
 }
 
 .ori-about-counter-item p span {
-  color: var(--base-color-1);
+  color: #e99d0a;
 }
 
 .ori-about-circle-progress-section {
@@ -7408,6 +7417,7 @@ select:visited {
   overflow: hidden;
   padding: 115px 0px;
   background-color: #171717;
+  margin-top: -100px;
 }
 
 .ori-service-page-service-inner-item {
@@ -7484,7 +7494,7 @@ select:visited {
   height: 15px;
   position: absolute;
   border-radius: 100%;
-  background-color: #FF7425;
+  background-color: #e99d0a;
 }
 
 .ori-service-why-choose-text .ori-service-why-choose-list-item ul li:after {
@@ -7601,6 +7611,7 @@ select:visited {
 .ori-service-details-section {
   overflow: hidden;
   padding: 130px 0px;
+  margin-top: -100px;
 }
 
 .ori-service-details-text {
@@ -7886,7 +7897,7 @@ select:visited {
   height: 15px;
   position: absolute;
   border-radius: 100%;
-  background-color: var(--base-color-1);
+  background-color: #e99d0a;
 }
 
 .ori-mission-accordion .accordion-button {
@@ -8458,6 +8469,7 @@ select:visited {
 .ori-portfolio-details-section {
   padding: 130px 0px;
   overflow: hidden;
+      margin-top: -100px;
 }
 
 .ori-portfolio-details-video-play {
@@ -8716,6 +8728,7 @@ select:visited {
 .ori-blog-feed-section {
   overflow: hidden;
   padding: 125px 0px;
+      margin-top: -100px;
 }
 
 .ori-blog-widget {
@@ -8943,6 +8956,7 @@ select:visited {
   font-size: 18px;
   line-height: 30px;
   padding-bottom: 35px;
+  
 }
 
 .ori-blog-feed-item .ori-blog-text .blog-more {
@@ -10133,6 +10147,7 @@ select:visited {
 .ori-contact-form-section {
   overflow: hidden;
   padding: 120px 0px;
+  margin-top: -250px;
 }
 
 .ori-contact-form-text-info {
@@ -12150,7 +12165,7 @@ Font load
 
 .ori-footer-title h2 i {
   margin-left: 20px;
-  color: var(--base-color-1);
+  color: #e99d0a;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
@@ -15089,7 +15104,7 @@ Font load
 .read-less-btn {
   /* Add your styles for the "Continue Reading" button here */
   background-color: transparent;
-  color: yellow;
+  color: #e99d0a;
   /* Change this to your desired text color */
   border: none;
   padding: 0;
